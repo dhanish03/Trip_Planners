@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="font-size: larger; color: brown;font-size: xx-large; margin-left: 50px;"> 
+        <p>WELCOME TO THE REAL WORLD!!!</p>
+    </h1>
+     <div class="background"></div>
+    <div class="container"></div>
+            <header>
+                <h1>Trip Planner's Hyderabad :)</h1>
+            </header>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Plan Trip</a></li>
+                    <li><a href="#">Destinations</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </nav>
+
+            <section id="plan-trip" class="section">
+                <h2>Search Your Destination</h2>
+                <input type="text" id="destination" placeholder="Enter Destination">
+                <button id="search-destination">Search</button>
+                <P style="text-align: left; text-decoration: dotted;"> Select any one of the places</P>
+                <ul></ul>
+                    <li style="text-align: left;"> Hyderabad</li>
+                    <li>Bangalore</li>
+                    <li> Goa</li>
+                </ul>
+                <div id="destination-results"></div>
+                <div id="weather-info"></div>
+            </section>
+            <section id="accommodation" class="section">
+                <h2>Book Your Accommodation</h2>
+                <select id="accommodation-options">
+                    <option>Select Destination First</option>
+                </select>
+                <button id="book-accommodation">Book Now</button>
+                <p id="booking-status"></p>
+            </section>
+
+            <section id="itinerary" class="section">
+                <h2>Create Your Itinerary</h2>
+                <input type="text" id="itinerary-item" placeholder="Add activity">
+                <button id="add-itinerary">Add to Itinerary</button>
+                <ul id="itinerary-list"></ul>
+            </section>
+
+            <footer>
+                <p>&copy; 2024 Travel Planner. All Rights Reserved. ADH PLANNER'S</p>
+            </footer>
+
+            <script src="script.js"></script>
+    
+</body>
+</html>

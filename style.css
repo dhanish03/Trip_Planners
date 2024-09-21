@@ -1,0 +1,86 @@
+* {
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+p {
+    text-align: center;
+}
+.background {
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('images/logo1.jpg'); 
+   background-position: 0cqmax;
+    opacity: 0.3; 
+    z-index: -1; 
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: hsl(0, 39%, 49%);
+    padding: 20px;
+    text-align: left;
+    color: white;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    color: hsl(0, 39%, 49%);
+    background-color: hsl(0, 39%, 49%);
+}
+
+.section {
+    padding: 40px;
+    margin: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+input, button, select {
+    padding: 10px;
+    margin: 10px;
+    font-size: 1em;
+}
+
+button {
+    background-color: hsl(0, 39%, 49%);
+    color: white;
+    border: none;
+    cursor:pointer;
+}
+
+button:hover {
+    background-color: hsl(0, 39%, 39%);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: hsl(0, 39%, 49%);
+    color: rgb(236, 231, 231);
+    position: static;
+    width: 100%;
+    bottom: 0;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: double;
+    font-weight: bolder;
+    margin-left: 0%;
+    padding: 80px;
+}
+
